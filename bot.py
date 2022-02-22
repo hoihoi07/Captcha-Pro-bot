@@ -15,8 +15,10 @@ from helper.captcha_maker import number_, emoji_
 app = Client(Config.SESSION_NAME, api_id=Config.APP_ID, api_hash=Config.API_HASH, bot_token=Config.BOT_TOKEN)
 # Local database for saving user info
 LocalDB = {}
-ch_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Updates Channel", url="https://t.me/Universal_Projects"),
-                                    InlineKeyboardButton(text="Support Group", url="https://t.me/JV_Community")]])
+ch_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Channel", url="https://t.me/jetbots"),
+                                    InlineKeyboardButton(text="Developer/Owner", url="https://t.me/jettastic")
+                                  InlineKeyboardButton(text="Our Other Bots", url="https://t.me/jetbots/26")
+                                    InlineKeyboardButton(text="Mirror/Encoding/Leech groups", url="https://t.me/jetbots/26")]])
 
 
 @app.on_chat_member_updated()
