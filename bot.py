@@ -17,7 +17,7 @@ app = Client(Config.SESSION_NAME, api_id=Config.APP_ID, api_hash=Config.API_HASH
 LocalDB = {}
 ch_markup = InlineKeyboardMarkup([[InlineKeyboardButton(text="Channel", url="https://t.me/jetbots"),
                                     InlineKeyboardButton(text="Developer/Owner", url="https://t.me/jettastic")
-                                  InlineKeyboardButton(text="Our Other Bots", url="https://t.me/jetbots/26")
+                                    InlineKeyboardButton(text="Our Other Bots", url="https://t.me/jetbots/26")
                                     InlineKeyboardButton(text="Mirror/Encoding/Leech groups", url="https://t.me/jetbots/26")]])
 
 
